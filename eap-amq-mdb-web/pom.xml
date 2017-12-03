@@ -22,23 +22,13 @@
     <parent>
         <artifactId>eap-amq-mdb</artifactId>
         <groupId>com.garethahealy.eapamqmdb</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../</relativePath>
     </parent>
-    
     <artifactId>eap-amq-mdb-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>WildFly Quickstarts: eap-amq-mdb-web</name>
-    <description>A starter Java EE 7 webapp project for use on JBoss WildFly / WildFly, generated from the jboss-javaee6-webapp archetype</description>
-
-    <url>http://wildfly.org</url>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <distribution>repo</distribution>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-        </license>
-    </licenses>
+    <name>GarethHealy :: EAP AMQ MDB :: Web</name>
 
     <properties>
         <!-- Explicitly declaring the source encoding eliminates the following 

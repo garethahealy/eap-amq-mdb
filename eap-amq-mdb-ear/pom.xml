@@ -22,25 +22,14 @@
     <parent>
         <artifactId>eap-amq-mdb</artifactId>
         <groupId>com.garethahealy.eapamqmdb</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../</relativePath>
     </parent>
-
     <artifactId>eap-amq-mdb-ear</artifactId>
     <packaging>ear</packaging>
-
-    <name>eap-amq-mdb: EAR Module</name>
-
-    <url>http://wildfly.org</url>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <distribution>repo</distribution>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-        </license>
-    </licenses>
+    <name>GarethHealy :: EAP AMQ MDB :: EAR</name>
 
     <dependencies>
-
         <!-- Depend on the ejb module and war so that we can package them -->
         <dependency>
             <groupId>com.garethahealy.eapamqmdb</groupId>

@@ -22,22 +22,12 @@
     <parent>
         <artifactId>eap-amq-mdb</artifactId>
         <groupId>com.garethahealy.eapamqmdb</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../</relativePath>
     </parent>
-
     <artifactId>eap-amq-mdb-ejb</artifactId>
     <packaging>ejb</packaging>
-
-    <name>eap-amq-mdb: EJB Module</name>
-
-    <url>http://wildfly.org</url>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <distribution>repo</distribution>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-        </license>
-    </licenses>
+    <name>GarethHealy :: EAP AMQ MDB :: EJB</name>
 
     <dependencyManagement>
         <dependencies>
